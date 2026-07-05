@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "mcopt",
+	"version": "${version}",
+	"name": "McOpt - Sunucu Optimizasyon Modu",
+	"description": "TPS izleme, otomatik lag tepkisi ve entity birlestirme ile sunucu performansini artiran optimizasyon modu.",
+	"authors": [
+		"Sen"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": null,
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.mcopt.McOptMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric-api": "*",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}
